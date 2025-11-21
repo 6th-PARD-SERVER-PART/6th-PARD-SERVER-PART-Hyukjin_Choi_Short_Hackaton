@@ -30,4 +30,9 @@ public class PickUpSchedulePlace {
 
     @Column
     private Integer currentOrders;
+
+    public void increaseCurrentOrders() {
+        this.currentOrders += 1;
+    }
+
 }

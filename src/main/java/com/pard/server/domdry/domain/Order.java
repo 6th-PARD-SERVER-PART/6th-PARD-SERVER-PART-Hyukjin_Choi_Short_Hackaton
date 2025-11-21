@@ -24,12 +24,10 @@ public class Order {
     private Long laundryId;
 
     @Column
-    private Long pickupPlaceId;
+    private Long pickupSchedulePlaceId;
 
     @Column
-    private Long pickupScheduleId;
-
-    @Column
+    @Enumerated(EnumType.STRING)
     private OrderStatus status;
 
 }

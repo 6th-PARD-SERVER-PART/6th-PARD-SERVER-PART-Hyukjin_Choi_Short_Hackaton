@@ -7,6 +7,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Entity
+@Table(name = "orders")
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
@@ -29,6 +30,6 @@ public class Order {
     private Long pickupScheduleId;
 
     @Column
-    private String status;
+    private OrderStatus status;
 
 }

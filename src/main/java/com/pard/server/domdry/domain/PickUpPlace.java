@@ -18,7 +18,4 @@ public class PickUpPlace {
 
     @Column
     private String name;
-
-    @Column
-    private Dormitory dormitory;
 }

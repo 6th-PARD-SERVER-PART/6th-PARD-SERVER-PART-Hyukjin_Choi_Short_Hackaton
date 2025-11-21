@@ -20,7 +20,4 @@ public class PickUpSchedule {
 
     @Column
     private LocalDateTime pickUpTime;
-
-    @Column
-    private OrderStatus status;
 }

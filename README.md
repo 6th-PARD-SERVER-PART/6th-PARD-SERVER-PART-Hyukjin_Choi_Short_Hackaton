@@ -198,7 +198,7 @@ http://localhost:8080
 [
     {
         "orderId": 1,
-        "memberName": "죽어랏",
+        "memberName": "호잇",
         "phoneNumber": "01000000000",
         "placeName": "로뎀관",
         "pickupDate": "2026-11-25T10:00:00",
@@ -206,7 +206,7 @@ http://localhost:8080
     },
     {
         "orderId": 2,
-        "memberName": "죽어랏",
+        "memberName": "아구몬",
         "phoneNumber": "01000000000",
         "placeName": "벧엘관",
         "pickupDate": "2026-11-25T10:00:00",
@@ -214,7 +214,7 @@ http://localhost:8080
     },
     {
         "orderId": 3,
-        "memberName": "죽어랏",
+        "memberName": "손오공",
         "phoneNumber": "01000000000",
         "placeName": "창조관",
         "pickupDate": "2026-11-25T10:00:00",
